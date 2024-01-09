@@ -1,0 +1,92 @@
+.singleProductDetails{
+    padding: 100px 0 60px;
+    /* text-align: center; */
+}
+.singleProductDetails h1{
+    margin: 30px 0;
+}
+
+.singleProductDetails button{
+    background-color: #ff5151;
+    border: none;
+    padding: 10px 30px;
+    margin: 30px 0 0;
+    color: #fff;
+    font-family: 'Montserrat';
+
+}
+.bestSellSingle h5 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    border-radius: 100%;
+    background-color: #ff5151;
+    top: 10px;
+    line-height: 45px;
+    right: 10px;
+    font-size: 14px;
+}
+.bestSellSingle h3 {
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    color: #fff;
+    border-radius: 100%;
+    background-color: #ff5151;
+    top: 10px;
+    line-height: 12px;
+    left: 10px;
+    font-size: 11px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bestSellSingle {
+    position: relative;
+}
+.incDecBtn {
+    display: flex;
+    /* justify-content: center; */
+    gap: 14px;
+}
+
+.incDecBtn button {
+    font-size: 20px;
+    padding: 1px 16px;
+    font-weight: bold;
+    margin: 0;
+    border: 2px solid #000;
+    background: cadetblue;
+}
+.singleProductDetails img{
+    /* width: 100%; */
+    margin: 0 auto;
+    display: block;
+}
+.bestSellSingle{
+    cursor: pointer;
+}
+.bottomDiv a {
+    color: #ff5151;
+    opacity: 0;
+    visibility: hidden;
+    margin-right: 0;
+    -webkit-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+}
+.bestSellSingle:hover .bottomDiv a {
+    opacity: 1;
+    visibility: visible;
+    margin-right: 30px;
+}
+.singleProductDetails h3 {
+    margin: 35px 0 5px;
+}
+.widthDiv {
+    width: 100px;
+    text-align: center;
+}
