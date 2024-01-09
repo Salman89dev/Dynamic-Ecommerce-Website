@@ -74,7 +74,6 @@ function App() {
       </div> :
 
       <div className="allData">
-        <h1>hello</h1>
         <HeroSection/>
         <PremiumHome />
         <BestSell handleData={handleData} count={countFun} arrayProduct={ProductArray} title="Best Sell" content="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text"/>
